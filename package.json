@@ -1,0 +1,15 @@
+{
+  "name": "your-next-pet-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot and API for the Your Next Pet prize wheel",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/register-commands.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "express": "^5.1.0"
+  }
+}
